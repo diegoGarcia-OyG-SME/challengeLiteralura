@@ -15,8 +15,8 @@ Spring Boot
 JPA (Java Persistence API)
 PostgreSQL
 Gutendex API
-Estructura del proyecto
 
+Estructura del proyecto
 El proyecto está organizado de la siguiente manera:
 com.aluracursos.challengeLiteratura.principal: Contiene la clase Principal, que es el punto de entrada de la aplicación y maneja la lógica de la interfaz de usuario.
 com.aluracursos.challengeLiteratura.model: Contiene las clases de modelo, como Libros y Autores.
@@ -29,8 +29,10 @@ Asegúrate de tener Java y PostgreSQL instalados en tu sistema.
 Crea una base de datos PostgreSQL con el nombre de tu elección.
 Actualiza la información de conexión a la base de datos en el archivo application.properties.
 Ejecuta la aplicación utilizando tu IDE o desde la línea de comandos con el siguiente comando: ./gradlew bootRun.
+
 Uso de la aplicación
 Una vez que la aplicación esté en ejecución, podrás interactuar con ella a través de la consola. El menú principal te permitirá seleccionar las diferentes opciones disponibles.
+
 Contribución
 Si deseas contribuir a este proyecto, puedes seguir los siguientes pasos:
 Haz un fork del repositorio.
